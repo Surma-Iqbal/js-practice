@@ -157,7 +157,27 @@ break;
 
 default:
     console.log("F");
-}*/
+}
+11. for loop over Array
 
+var category=["milk","tea","coffee","juice"];
 
+var i;
+for(i=0;i<category.length;i=i+1){
+console.log(category[i]+"<br>")
+}
+
+12. Array forEach method
+
+var numArray=[32,43,55,67,87,93,99];
+numArray.forEach(function (item){
+console.log(item+"<br>")
+})
+
+13. Array concate
+
+var arr1=["aaraf","zayan","faizan","farzad"];
+var arr2=["naya","guddi"];
+var arr3=arr1.concat(arr2);
+console.log(arr3)*/
 
